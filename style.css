@@ -1,0 +1,118 @@
+body {
+    background-image: linear-gradient(rgba(10, 158, 226, 0.712), rgba(136, 9, 240, 0.589));
+    display: block;
+    align-items: center;
+    
+
+    
+   
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.inicial{
+    background:url("/img/img2.jpg");
+    height: 600px;
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    opacity:0.90;
+ 
+  
+    
+}
+
+.work{
+    background-color:black;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+
+}
+
+.page-end {
+    color:black;
+    position:relative;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.144);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    margin: auto;
+    padding:0;
+    box-sizing: border-box;
+    padding: 50px 20px;
+    box-shadow: 1px 5px 15px rgba(2, 18, 39, 0.993);
+    
+
+    
+
+
+}
+
+.page-end h2{
+    margin: 0 0 20px;
+    padding:0;
+    font-size: 48px;
+    text-transform: uppercase;
+          
+
+}
+
+.page-end p {
+    margin: 10px;
+    padding:10px;
+    font-size: 20px;
+   
+
+}
+
+.page-end{
+    transition:all 500ms ease-in-out;
+    cursor:pointer;
+
+
+
+}
+
+.linkedin:hover{
+    opacity: 0.5;
+    
+
+}
+
+.github{
+    margin: 25px;
+    transition:all 500ms ease-in-out;
+    cursor:pointer;
+        
+
+
+
+}
+
+.github:hover{
+    opacity: 0.5;
+    transform: translatey(-1.2rem);
+    
+    
+
+}
+
+@media(max-width:568px){
+  .pimg2{
+    background-attachment:scroll;
+  }
+}
