@@ -1,8 +1,8 @@
 body {
-    background-image: linear-gradient(rgba(10, 158, 226, 0.712), rgba(136, 9, 240, 0.589));
+    background-image: linear-gradient(rgb(10, 96, 226), rgba(93, 8, 150, 0.966));
     display: block;
     align-items: center;
-    
+    margin:0;
 
     
    
@@ -22,24 +22,31 @@ body {
     padding: 20px;
 }
 
+
+
 .inicial{
-    background:url("/img/img2.jpg");
-    height: 600px;
     position:relative;
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
     opacity:0.90;
- 
-  
+    background-attachment:fixed;
     
+ 
+     
 }
+
+.inicial{
+    background-image:url('img/img3.jpg');
+    min-height:600px;
+    
+  }
 
 .work{
     background-color:black;
-    text-transform: uppercase;
     color: #fff;
     text-align: center;
+     
 
 }
 
@@ -112,7 +119,7 @@ body {
 }
 
 @media(max-width:568px){
-  .pimg2{
+  .inicial{
     background-attachment:scroll;
   }
 }
